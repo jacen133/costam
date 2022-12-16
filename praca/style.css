@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgba(255, 99, 71, 0.5);
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: right;
+}
+
+.nav-links li {
+  margin-top: 3%;
+  margin-right: 5%;
+}
+
+.nav-links li {
+  list-style-type: none;
+}
+
+nav a:hover {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+}
+
+.bohater {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.powitanie {
+  font-size: large;
+  color: black;
+  font-weight: 1000;
+  margin-top: 5%;
+  position: absolute;
+  top: 5%;
+  margin-right: 80%;
+}
+
+.temat {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+}
+
+.temat h2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.zdj img {
+  width: 45%;
+  height: 45%;
+  margin-left: 3%;
+}
+
+table {
+  position: absolute;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-left: 50%;
+}
+
+.zdj2 img {
+  width: 50%;
+  height: 50%;
+}
+.contents li {
+  list-style-type: none;
+}
+
+.contents li a {
+  text-decoration: none;
+  color: black;
+}
+
+.games li {
+  list-style-type: none;
+}
+
+.games li a {
+  text-decoration: none;
+  color: black;
+}
