@@ -1,0 +1,104 @@
+/* Set the default font and background color for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+  }
+  
+  /* Style the header */
+  header {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+  }
+  
+  /* Style the navigation menu */
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style the burger menu icon */
+  .burger {
+    display: none; /* Only display on small screens */
+  }
+  
+  .burger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+  }
+  
+  /* Style the navigation links */
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin: 0 10px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Style the hero image and title */
+  .bohater img {
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  .bohater h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  /* Style the main content */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  /* Style the greeting and character information sections */
+  .powitanie, .temat, .bohaterowie {
+    width: 30%;
+    padding: 20px;
+  }
+  
+  /* Style the games section */
+  .games {
+    width: 40%;
+    padding: 20px;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Style the navigation menu for small screens */
+  @media screen and (max-width: 600px) {
+    /* Show the burger menu icon and hide the navigation links */
+    .burger {
+      display: block;
+    }
+    .nav-links {
+      display: none;
+    }
+  
+    /* Show the navigation links when the burger menu is clicked */
+    .burger:hover + .nav-links {
+      display: block;
+    }
+  }
+  
